@@ -34,7 +34,7 @@ export default class InvoiceModel extends Model {
   @Column({ allowNull: false })
   city: string;
 
-  @Column({ allowNull: false, field: "zip_code" })
+  @Column({ allowNull: false, field: "zipcode" })
   zipCode: string;
 
   @HasMany(() => InvoiceItemModel)

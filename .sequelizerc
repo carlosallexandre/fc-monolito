@@ -1,0 +1,3 @@
+module.exports = {
+  "migrations-path": "./src/modules/@shared/infra/database/migrations",
+};
